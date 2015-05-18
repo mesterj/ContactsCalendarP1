@@ -28,7 +28,58 @@ public class MyContact extends BaseModel{
     @Column
     String elotag;
 
+    @Column
+    String telefonszam;
+
     public MyContact() {
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getMasodiknev() {
+        return masodiknev;
+    }
+
+    public void setMasodiknev(String masodiknev) {
+        this.masodiknev = masodiknev;
+    }
+
+    public String getKozepsonev() {
+        return kozepsonev;
+    }
+
+    public void setKozepsonev(String kozepsonev) {
+        this.kozepsonev = kozepsonev;
+    }
+
+    public String getElotag() {
+        return elotag;
+    }
+
+    public void setElotag(String elotag) {
+        this.elotag = elotag;
+    }
+
+    public String getTelefonszam() {
+        return telefonszam;
+    }
+
+    public void setTelefonszam(String telefonszam) {
+        this.telefonszam = telefonszam;
+    }
+
+    public String getElsonev() {
+        return elsonev;
+    }
+
+    public void setElsonev(String elsonev) {
+        this.elsonev = elsonev;
     }
 }
 
